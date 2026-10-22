@@ -1,0 +1,14 @@
+{
+  "source": "2d22c1d097ca0bff080c20ee952c4536.mp4",
+  "clips": {
+    "tape-recorder": [
+      3.72,
+      4.23
+    ],
+    "shutter": [
+      3.12,
+      3.5
+    ]
+  },
+  "sampleRate": 24000
+}

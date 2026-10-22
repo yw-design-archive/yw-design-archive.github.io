@@ -1,0 +1,7 @@
+.motion-sound-toggle{position:fixed;right:18px;bottom:18px;z-index:12;width:32px;height:32px;padding:7px;display:grid;place-items:center;border:1px solid #ffffff55;border-radius:50%;background:#181818d9;color:#fff;backdrop-filter:blur(8px)}
+.motion-sound-toggle svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.motion-sound-toggle .sound-off,.motion-sound-toggle[aria-pressed="false"] .sound-waves{display:none}
+.motion-sound-toggle[aria-pressed="false"] .sound-off{display:block}
+.motion-sound-toggle:hover,.motion-sound-toggle:focus-visible{border-color:#ee47a7;color:#ee47a7}
+html.booting .motion-sound-toggle{visibility:hidden}
+@media(max-width:760px){.motion-sound-toggle{right:12px;bottom:12px}}

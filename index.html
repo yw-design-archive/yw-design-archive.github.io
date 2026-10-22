@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101010"><meta name="description" content="王蕴 Yun Wang 的设计作品集：非遗文创、跨文化视觉、博物馆文旅产品与设计实践。">
+<title>王蕴 Yun Wang — 设计作品集</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="reference.css"><link rel="stylesheet" href="loader.css"><link rel="stylesheet" href="cover-hover.css">
+<link rel="preload" href="assets/fonts/Oswald-Light.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/Montserrat-Bold.otf" as="font" type="font/otf" crossorigin>
+<link rel="stylesheet" href="motion.css">
+<script>
+document.documentElement.classList.add('booting');
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+function startAtCover(){
+ document.body?.classList.remove('about-page-active','category-page-active');
+ history.replaceState(history.state,'',location.pathname+location.search+'#home');
+ window.scrollTo({top:0,left:0,behavior:'instant'});
+}
+startAtCover();
+window.addEventListener('pageshow',event=>{if(event.persisted)startAtCover()});
+</script>
+<link rel="stylesheet" href="motion-sound.css"></head>
+<body>
+<section id="intro-loader" class="intro-loader" aria-label="正在加载作品集">
+ <div class="loader-wordmark" aria-hidden="true"><span class="wordmark-letters">Yw</span><span class="brand-dot">.</span></div>
+ <div class="loader-controls"><p id="loader-status" role="status">正在准备作品集</p></div>
+ <div class="loader-bottom"><span>YUN WANG / PORTFOLIO</span><div id="loader-progress" role="progressbar" aria-label="加载进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="loader-percent">0</span><small>%</small></div></div>
+</section>
+<a class="skip" href="#work">跳转至作品</a>
+<header class="nav"><a class="brand" href="#home" aria-label="王蕴 首页"><span class="brand-mark"><span class="wordmark-letters">Yw</span><span class="brand-dot">.</span></span><span>王蕴 <small>YUN WANG</small></span></a><nav aria-label="主导航"><a class="nav-home" href="#home">HOME</a><a href="#work">WORK</a><a href="#about">ABOUT</a><a class="nav-contact" href="#contact">CONTACT <span>↗</span></a></nav></header>
+<main>
+<section id="home" class="hero" aria-labelledby="hero-title">
+<div class="hero-top"><span>INDEPENDENT THINKING. CULTURAL EXPRESSION.</span><span>DESIGN PORTFOLIO / 2018—2026</span></div>
+<div class="cover-heading"><p class="cover-kicker">蕴万象 见视觉</p><h1 id="hero-title" class="cover-title"></h1></div>
+<div class="hero-subline"><p>不止于形，<br>让文化在当代生长。</p><p>YUN WANG / 王蕴<br>DESIGNER & EDUCATOR</p><a href="#work">SCROLL TO EXPLORE ↓</a></div>
+</section>
+<section class="work-marquee" aria-label="精选作品横向滚动展示">
+<div class="marquee-top"><span>01 / SELECTED PROJECTS</span><a href="#work">VIEW ALL WORKS <span aria-hidden="true">↗</span></a></div>
+<div class="marquee-viewport" tabindex="0" aria-label="横向浏览精选作品，可使用触控滑动或键盘方向键"><div id="hero-wall" class="hero-wall"></div></div>
+</section>
+<section class="hero-manifesto aboutme-section" aria-labelledby="aboutme-title"><h2 id="aboutme-title" class="cover-title aboutme-title"></h2><p class="aboutme-copy">我的创作始于对文化的好奇，也始于对日常的观察。<br>从传统纹样、工艺与东方观念中，寻找当代表达的可能。<br>以研究理解符号，以几何、材质与交互探索新的感知方式。<br>在视觉与器物之间，思考文化如何被看见、被使用、被延续。<br>让设计保有文化的深度，也与当下的生活产生细腻的共鸣。</p><a class="aboutme-cta" href="#about"><span>ABOUT ME</span><span class="aboutme-eyes" aria-hidden="true"><i></i><i></i></span></a></section>
+<section id="work" class="work section work-directory">
+<div class="directory-browser">
+<div class="directory-content">
+<div class="directory-toolbar"><span>YUN WANG / PORTFOLIO</span><span id="directory-total">04 CATEGORIES</span></div>
+<div id="directory-landing" class="directory-landing">
+<h1 id="directory-title" class="directory-title" aria-label="CREATIONS"></h1>
+<div id="category-grid" class="directory-list" role="list" aria-label="作品分类 / Project categories"></div>
+</div>
+<div id="directory-detail" class="directory-detail" hidden>
+<aside class="folder-sidebar"><div class="folder-category-heading"><p id="folder-category-cn"></p><h2 id="folder-category-title"></h2><span class="folder-signature">YUN WANG <i>&</i> DESIGN</span></div><div id="folder-project-list" class="folder-project-list" aria-label="分类中的项目"></div><div class="folder-sidebar-bottom"><button id="directory-back" class="directory-back" type="button" aria-label="返回全部分类">←</button><nav id="folder-category-tabs" class="folder-category-tabs" aria-label="切换作品分类"></nav></div></aside>
+<div class="folder-stage"><header class="folder-stage-heading"><h2 id="directory-current"></h2><p id="folder-project-tags"></p></header><div id="project-grid" class="project-grid folder-sheets" hidden></div></div>
+</div>
+</div>
+</div><p id="result-count" class="sr-only" aria-live="polite"></p>
+</section>
+<section class="familiar-statement" aria-label="SEE THE FAMILIAR IN A NEW LIGHT."><h2><span class="familiar-line">S<span class="statement-accent">E</span>E THE FAMILIAR</span><span class="familiar-line">IN A N<span class="statement-accent">E</span>W LIGHT.</span></h2></section>
+<section id="about" class="about section bio-archive" aria-label="王蕴个人档案">
+<a class="bio-close" href="#home" aria-label="关闭个人简介，返回首页">×</a>
+<div class="bio-folder"><div class="bio-folder-tab" aria-hidden="true"></div><div class="bio-holes" aria-hidden="true">● ● ● ● ● ● ● ●</div>
+<div class="bio-sheet"><header class="bio-overview bio-block"><h2>◦ About</h2><div class="bio-overview-grid"><div><strong>王&nbsp;蕴 <span>Yun Wang</span></strong><p>设计师/视觉传达专任教师<br>Designer / Educator</p></div><p class="bio-intro" id="about-text"></p></div></header>
+<div class="bio-practice bio-block"><h2>◦ Research & Practice</h2><p class="bio-practice-copy">以文化为起点，以设计相连接。</p><div class="bio-timeline"><div><b>2018</b><span>汉字转译<br>旋 · 字塑</span></div><div><b>2020</b><span>器物与日常<br>憩源茶具</span></div><div><b>2023</b><span>非遗文化<br>金箔莲花灯具</span></div><div><b>2024</b><span>博物馆文创<br>四季盐礼</span></div><div><b>2026</b><span>文化可视化<br>四象数理图</span></div></div></div>
+<div class="bio-bottom-grid"><div class="bio-block bio-school"><h2>◦ Education</h2><h3>南京艺术学院</h3><p>2020—2023<br>艺术设计硕士 · 文化创意设计方向</p><p>2016—2020<br>艺术学士 · 文化与时尚设计方向</p></div>
+<div class="bio-block bio-awards"><h2>◦ Awards</h2><p><b>2024</b> 第六届江苏省高校设计作品展教师组 · 二等奖</p><p><b>2023</b> 亚洲新生代设计展 · 金奖</p><p><b>2023</b> 全国青年设计师大赛 · 二等奖</p><p><b>2022</b> 米兰设计周中国高校设计优秀作品展江苏赛区 · 二等奖</p></div>
+<div class="bio-block bio-focus"><h2>◦ Focus</h2><div><span>文化研究</span><span>视觉转译</span><span>器物设计</span><span>交互体验</span></div></div></div><span class="bio-paper-stars" aria-hidden="true">✳<br>✳<br>✳</span></div>
+<aside class="bio-member-card"><div class="bio-member-heading">PROFILE<br>CARD<small>DESIGNER / EDUCATOR</small></div><div class="bio-member-fields"><p><small>NAME</small><strong>Yun Wang</strong></p><p><small>JOB</small><strong>Designer</strong></p><p><small>EXPLORE</small><strong class="bio-explore-title">Visual Arts &amp;<br>Cultural Creative<br>Design</strong></p></div><div class="bio-card-art bio-portrait"><img src="assets/yun-wang-portrait.jpg" alt="王蕴个人照片" width="1280" height="1600" decoding="async"></div><div class="bio-card-footer"><span>INDEPENDENT THINKING.<br>CULTURAL EXPRESSION.</span></div></aside>
+<div class="bio-pin" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="bio-clip" aria-hidden="true"><span>Archive</span></div>
+</div></section>
+<section id="contact" class="contact section image-contact" aria-label="联系王蕴">
+<div class="contact-panel"><img class="contact-photo" src="assets/footer-teaware.jpg" alt="憩源茶具，白瓷器物与温暖的日常光影" width="2848" height="1600" loading="lazy" decoding="async"><div class="contact-panel-shade" aria-hidden="true"></div>
+<div class="contact-panel-content"><div class="contact-identity"><a class="contact-wordmark" href="#home" aria-label="回到首页"><span class="wordmark-letters">Yw</span><span class="brand-dot">.</span></a><p>Independent thinking.<br>Cultural expression.</p></div>
+<div class="contact-column"><h2>PROFILE</h2><p>YUN WANG / 王蕴<br>Designer & Educator<br>Culture and Form</p></div>
+<div class="contact-column"><h2>EXPLORE</h2><a href="#work">Selected Work ↗</a><a href="#about">About Me ↗</a><a href="#home">Back to Top ↑</a></div>
+<div class="contact-column"><h2>CONTACT</h2><a id="email-link"></a><p>设计合作 · 学术交流<br>Open to collaboration.</p></div></div></div></section>
+</main>
+<dialog id="project-dialog" aria-labelledby="detail-title"><div class="detail-nav"><span>PROJECT / <span id="detail-number"></span></span><button id="close-dialog" aria-label="关闭项目详情">关闭 <span>×</span></button></div><article><div class="detail-heading"><p id="detail-meta" class="eyebrow"></p><h2 id="detail-title"></h2><p id="detail-english"></p><p id="detail-description"></p><div id="detail-tags"></div><p id="detail-awards"></p></div><div id="detail-gallery"></div><button id="next-project" class="next-project"></button></article></dialog>
+<script src="loader.js" defer></script><script src="app.js" defer></script><script src="motion-sound.js" defer></script><script src="motion.js" defer></script><script src="cursor.js" defer></script>
+</body></html>

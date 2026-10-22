@@ -1,0 +1,18 @@
+{
+  "name": "王蕴",
+  "englishName": "Yun Wang",
+  "headline": "Culture & Form",
+  "intro": "从传统文化出发，在器物、图形与日常之间，探索设计的当代表达。",
+  "email": "yun.wang.art@outlook.com",
+  "about": "我关注视觉语言如何回应当代审美，也关心形式更新如何影响人们对文化的识别与真实感知。从文化来源的梳理，到图形、材料与工艺的推敲，探索形式创新与文化内涵相契合的表达。",
+  "projects": [
+    {"id":"lotus","title":"生莲","english":"Step-Borne Wall Lotus","category":"非遗文创","year":"2023","cover":"assets/lotus.webp","summary":"一步一莲，让金箔技艺在光影中重新绽放。","description":"灵感源于“步步生莲”，将莲花这一传统吉祥意象与国家级非物质文化遗产金箔锻制技艺相结合。以数字化方式模拟莲花形态，透明树脂与玻璃花瓣背贴金箔；通过交互技术捕捉脚步，人群聚集越多，亮起的莲花也越多。","tags":["灯具设计","金箔工艺","交互体验"],"awards":"2023 亚洲新生代设计展金奖、全国青年设计师大赛二等奖","pages":["04-a","04-b","05-a","05-b"]},
+    {"id":"beasts","title":"四象数理图","english":"Mythical Beasts Philosophy Infographics","category":"视觉设计","year":"2026","cover":"assets/beasts.webp","summary":"以数理秩序为骨架，将东方宇宙观转译为视觉系统。","description":"从瓦当“四瑞兽”出发，探索四象星宿、五行数理与天圆地方的哲学观念。以数理秩序组织图形，将二十八星宿、洛书九宫等抽象体系转化为符号化的视觉语言，让传统瑞兽成为传递古人认知方法的信息系统。","tags":["信息可视化","文化符号","视觉系统"],"pages":["11-b","12-a","12-b","13-a","13-b","14-a"]},
+    {"id":"zhuoxi","title":"濯兮","english":"Zhuoxi · Bath Salt Collection","category":"博物馆文创","year":"2024","cover":"assets/zhuoxi.webp","summary":"从馆藏花鸟到日常养生，盛放一份东方意境。","description":"为中国海盐博物馆文创产品设计足浴盐包装，以馆藏花鸟古画为核心视觉，从水波、书法、馆藏文物与中式窗棂中提取设计语言。以石青、胭脂、赭石三套配色，分别对应生姜、玫瑰与艾草产品，传递“濯涤身心”的养生意境。","tags":["包装设计","中国海盐博物馆","东方美学"],"pages":["15-a","15-b","16-a"]},
+    {"id":"turandot","title":"图兰朵","english":"Turandot","category":"视觉设计","year":"2019","cover":"assets/turandot.webp","summary":"当歌剧叙事遇见包豪斯，人物成为几何的诗。","description":"从歌剧《图兰朵》的角色与叙事出发，借鉴包豪斯舞台艺术的几何抽象方法，将人体归纳为几何图形并切割、重组。结合故事背景与人物身份，融入中国少数民族服装配饰，探索跨文化语境中的人物符号设计。","tags":["跨文化设计","角色设计","包豪斯"],"awards":"2022 米兰设计周中国高校设计学科师生优秀作品展江苏赛区二等奖","pages":["08-b","09-a","09-b","10-a","10-b","11-a"]},
+    {"id":"seasons","title":"四季盐礼","english":"Seasonal Sea-salt Ceremony","category":"博物馆文创","year":"2024","cover":"assets/seasons.webp","summary":"将春夏秋冬的风物，收藏进每日的滋味。","description":"以四季时令意象为核心，对应春樱、夏荷、秋姜黄、冬雪花四款风味。以细腻线描提炼风物形态，用粉、青、黄、蓝四组柔和色系区分品类。分栏式礼盒与简约研磨瓶贴共同构成统一的视觉体系，将东方时令美学融入日常调味。","tags":["包装设计","海盐产品","系列化设计"],"pages":["16-b","17-a","17-b","18-a"]},
+    {"id":"chess","title":"旋·字塑","english":"Whirling Volumetric Hanzi Chess","category":"非遗文创","year":"2018","cover":"assets/chess.webp","summary":"让平面的汉字，成为立体棋局中的鲜活角色。","description":"以汉字笔画与棋子身份为基础，通过管状翻转的形式赋予每个棋子独立的动态感。将平面中国象棋转化为立体、鲜活的形态，使汉字的文化识别与两军对垒的力量感融入器物。","tags":["产品设计","汉字转译","3D 打印"],"awards":"入围首届 2018 国际 3D 打印嘉年华，作品展览并收藏","pages":["06-a","06-b","07-a","07-b"]},
+    {"id":"tea","title":"憩源","english":"Restful Origin","category":"产品与社会项目","year":"2020","cover":"assets/tea.webp","summary":"以陶瓷与竹，安放工作之后的一盏茶。","description":"从树叶、花瓣与溪流的柔和轮廓出发，设计适合在家中与朋友共享的茶具。自然形态融入壶身、杯体与茶盘；杯身握持处嵌入竹质叶片结构，在呼应主题的同时实现隔热功能。","tags":["茶具设计","陶瓷与竹","生活方式"],"pages":["20-b","21-a","21-b","22-a","22-b"]},
+    {"id":"medal","title":"致敬，与铭记","english":"Jiangsu Commendation Medal","category":"产品与社会项目","year":"2021","cover":"assets/medal.webp","summary":"参与江苏省抗疫表彰奖章设计，以茉莉寄予敬意。","description":"参与江苏省“全省抗击新冠肺炎疫情先进个人”奖章设计。以茉莉花的花与叶构成主体造型，中心呈现抗疫英雄群像，以四颗相连爱心表达团结精神。奖章采用纯银镀金与珐琅工艺，搭配仿云锦绶带、金箔说明卡与沙比利木盒。","tags":["参与设计","奖章设计","公共纪念"],"pages":["19-a","19-b","20-a"]}
+  ]
+}
